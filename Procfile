@@ -1,0 +1,1 @@
+web: gunicorn socalexcursion.wsgi --log-file -

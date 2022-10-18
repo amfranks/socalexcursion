@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel='stylesheet' href="{% static 'css/index.css' %}" />
+</head>
+
+<body>
+    <div class="locations-main">
+        <h1>Welcome To San Clemente!</h1>
+
+        <div id="weather">
+                <img src="http://openweathermap.org/img/wn/{{city_weather.icon}}.png" alt="">
+                <span>{{ city_weather.temperature }}° F</span>
+        </div>
+    </div>
+
+    <div class="mobile-container">
+        <div class="mobile-container-description">
+            <p>SoCal Excursion is a quick and convenient tourism site for exploring the town of San Clemente, CA.</p>
+        </div>
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel__face"></div>
+            <div class="carousel__face"></div>
+            <div class="carousel__face"></div>
+            <div class="carousel__face"></div>
+            <div class="carousel__face"></div>
+            <div class="carousel__face"></div>
+            <div class="carousel__face"></div>
+            <div class="carousel__face"></div>
+            <div class="carousel__face"></div>
+        </div>
+    </div>
+</body>
+{% endblock content %}
