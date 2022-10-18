@@ -4,5 +4,3 @@ SoCal Excursion is a quick and convenient tourism site for exploring the Village
 ![Screenshot](screenshot.png)
 
 # [Live Site](https://socalexcursion.herokuapp.com/)
-# socalexcursion
-# socalexcursion
