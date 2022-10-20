@@ -1,5 +1,3 @@
-from asyncio.windows_events import NULL
-from unicodedata import category
 from django.db import models
 
 # Create your models here.
@@ -20,4 +18,3 @@ class Location(models.Model):
         return self.name
     def getCategoryId(self):
         return self.categoryid
-
