@@ -11,10 +11,10 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
-import django_heroku
-import django_on_heroku
-import dj_database_url
-import os
+# import django_heroku
+# import django_on_heroku
+# import dj_database_url
+# import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -123,13 +123,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = '/static/'
-STATIC_ROOT=os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'))
-django_on_heroku.settings(locals())
-# STATICFILES_DIRS = [
-#     BASE_DIR / "socalexcursion/static",
-# ]
+STATIC_URL = 'static/'
+# STATIC_ROOT=os.path.join(BASE_DIR, 'static')
+# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'))
+# django_on_heroku.settings(locals())
+STATICFILES_DIRS = [
+    BASE_DIR / "socalexcursion/static",
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
