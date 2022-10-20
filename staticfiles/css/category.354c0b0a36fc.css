@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    min-width: 100vw;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+h1 {
+    color: whitesmoke;
+    margin-bottom: 2rem;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+p {
+    padding: 0 3rem;
+    margin: 0 auto;
+    max-width: 500px;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button {
+    border: none;
+    padding: 10px 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: teal;
+    transition: 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+li {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+img {
+    border-radius: 4px;
+    transition: .2s;
+    width: 40%;
+    margin: 1rem 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+img:hover {
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+}
+
+hr {
+    margin: 1.5rem 0;
+}
+
+@media screen and (min-width: 501px) {
+    hr {
+        margin: 3rem 0;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    hr {
+        margin: 3.5rem 0;
+    }
+}
